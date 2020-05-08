@@ -24,7 +24,10 @@ module NetSuite
 
       # API < 2014_2
       fields :addr1, :addr2, :addr3, :addr_phone, :addr_text, :addressee, :attention, :city, :country,
-        :make_inventory_available, :make_inventory_available_store, :name, :override, :state, :tran_prefix, :zip, :latitude, :longitude
+        :make_inventory_available, :make_inventory_available_store, :name, :override, :state, :tran_prefix, :zip
+
+      # API < 2018_2
+      fields :latitude, :longitude
 
       attr_reader :internal_id
       attr_accessor :external_id

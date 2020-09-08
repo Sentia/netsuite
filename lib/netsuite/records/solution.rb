@@ -11,7 +11,8 @@ module NetSuite
 
       fields :title, :solution_code, :description, :status, :created_date, :last_modifiedDate, :display_online
 
-      # field :custom_field_list, CustomFieldLissst
+      field :custom_field_list, CustomFieldList
+      
       # field :item_list,         WorkOrderItemList
 
       # record_refs :assembly_item, :created_from, :custom_form,

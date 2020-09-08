@@ -21,6 +21,14 @@
 [![Slack Status](https://opensuite-slackin.herokuapp.com/badge.svg)](http://opensuite-slackin.herokuapp.com)
 [![Gem Version](https://badge.fury.io/rb/netsuite.svg)](http://badge.fury.io/rb/netsuite)
 
+# This is a Sentia modified version of Netsuite gem, to include it
+```
+gem 'netsuite', github: 'Sentia/netsuite', branch: 'master'
+```
+
+## Customized changes
+to include
+
 # NetSuite SuiteTalk API Ruby Gem
 
 * This gem will act as a wrapper around the NetSuite SuiteTalk WebServices API.
